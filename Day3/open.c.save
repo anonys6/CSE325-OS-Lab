@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main() {
+	int fd, n, m;
+	char buff[100];
+	
+	fd = open("Day3.txt", O_CREAT | O_WRONLY | O_RDONLY, 666);
+	printf("Value of fd is %d \n", fd);
+	n = read(0, buff, 20);
+	printf("Read count is %d \n", n);
+	m = write(fd, buff, n);
+	printf("Write count is %d \n", m);
+	close(fd);
+
+	return 0;
+}
