@@ -1,0 +1,30 @@
+What is the difference between orphan and zombie processes?
+-> An orphan process is a process that is still executing, but its parent process has terminated1. When the parent dies, the orphaned child process is adopted by init (process ID 1)1. When orphan processes die, they do not remain as zombie processes; instead, they are waited on by init1.
+
+On the other hand, a zombie process is a process that has completed its execution but still has an entry in the process table because the parent process didn’t read its exit status1. The zombie process usually occurred in the child process2. The zombie process is unable to terminate itself because it is treated as a dead process2. So parent process needs to execute to terminate the command to terminate the child2.
+
+In terms of memory management and the process table, these processes are handled differently. A zombie process only occupies space in the process table and takes no memory or CPU3. However, the process table is a finite resource, and excessive zombies can fill it, meaning that no other processes can launch3. An orphan is just a process. It will use whatever resources it uses3
+
+
+How many child processes will be created if three consecutive fork statements are used in a main function?
+2^n - 1
+2^3 - 1
+8 - 1
+7
+
+
+In case of p = fork(), which process will be executed is p > 0.
+-> Parent process
+
+
+In case of p = fork(), which process will be executed is p < 0.
+-> Error
+
+
+Which system call causes the parent process to stop until the child completes the
+execution.
+-> wait()
+
+
+What is the function of an execl system call?
+-> The execl() system call is used to replace the current running process with a new process1. It loads the program into the current process space and runs it from the entry point
