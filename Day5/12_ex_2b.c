@@ -56,7 +56,6 @@ int main() {
         exit(0);
     }
 
-    // Wait for all child processes to finish
     while(wait(NULL) > 0);
 
     return 0;
