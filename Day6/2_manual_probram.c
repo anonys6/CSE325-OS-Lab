@@ -16,8 +16,8 @@ int main() {
     
     pthread_create(&thread1, NULL, func, NULL);
 
-    // pthread_join(thread1, &result);
-    pthread_join(thread1, NULL);
+    pthread_join(thread1, &result);
+    // pthread_join(thread1, NULL);
 
     printf("%s \n", (char*) result);
 
