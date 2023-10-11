@@ -35,6 +35,7 @@ int main() {
     void *status;
     pthread_t thread1;
     int fun_arg = 10;
+    
     pthread_create(&thread1, NULL, hello, (void *)&fun_arg);
     pthread_join(thread1, &status);
     printf("%s\n", (char *) status);
