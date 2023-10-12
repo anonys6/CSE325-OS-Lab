@@ -27,7 +27,7 @@ int main() {
             } else if (f3 == 0) {
                 printf("---------------------------------------\n");
                 printf("Child process with PID: %d, parent PID: %d\n", getpid(), getppid());
-                pid_t f3 = fork();
+                pid_t f3 = fork(); 
                 
             } else {
                 exit(0);
