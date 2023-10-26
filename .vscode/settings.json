@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "1_manual_1.C": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "string.h": "c"
     }
 }
