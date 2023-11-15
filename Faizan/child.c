@@ -31,5 +31,4 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-
 // Please note that you need to compile the child process code and name the executable as child and place it in the same directory as the parent process code.

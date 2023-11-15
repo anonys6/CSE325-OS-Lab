@@ -1,0 +1,36 @@
+ls : list files in a directory
+ls -a : list all files in a directory
+ls -l : list files in a directory in long format
+ls -al : list all files in a directory in long format
+
+cd : change directory
+cd .. : go up one directory
+cd ../.. : go up two directories
+cd ~ : go to home directory
+cd - : go to previous directory
+
+pwd : print working directory
+
+mkdir : create a directory
+
+rm : remove a file
+rm -r : remove a directory and its contents
+rm -f : force removal without confirmation
+rm -i : ask for confirmation before removal
+
+cp : copy a file or directory
+cp -r : copy a directory and its contents
+cp -i : ask for confirmation before overwriting
+cp -f : force copying by removing the destination file if needed
+
+mv : move a file or directory
+mv old_file new_file : rename a file
+
+cat : print the whole file
+cat file1 file2 : print two files
+cat file1 file2 > newcombinedfile : combine two files into one new file
+cat file1 >> file2 : append file1 to file2
+
+touch : create an empty file
+touch file1 file2 : create two empty files
+
