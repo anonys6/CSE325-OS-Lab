@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <sys/shm.h>
 #include <string.h>
+
 int main()
 {
     int i;
