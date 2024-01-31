@@ -33,6 +33,56 @@ The [Day4](Day4) directory contains C programs for directory operations.
 - [`read_dir.c`](Day4/read_dir.c)
 - [`user_dir.c`](Day4/user_dir.c)
 
+### Day 5
+
+The [Day5](Day5) directory contains the following files:
+
+- [`1_fork.c`](Day5/1_fork.c)
+- [`2_fork_again.c`](Day5/2_fork_again.c)
+- [`3_wait.c`](Day5/3_wait.c)
+- [`4_orphan_process.c`](Day5/4_orphan_process.c)
+- [`5_zombie_process.c`](Day5/5_zombie_process.c)
+- [`6_hello.c`](Day5/6_hello.c)
+- [`7_fork.c`](Day5/7_fork.c)
+- [`8_zombie.c`](Day5/8_zombie.c)
+- [`9_wait.c`](Day5/9_wait.c)
+- [`13_ex_4.c`](Day5/13_ex_4.c)
+- [`14_viva_ques.txt`](Day5/14_viva_ques.txt)
+
+### Day 6
+
+The [Day6](Day6) directory contains the following files:
+
+- [`intro.c`](Day6/intro.c)
+- [`2_manual_program.c`](Day6/2_manual_program.c)
+- [`4_word_2.c`](Day6/4_word_2.c)
+- [`l.c`](Day6/l.c)
+- [`3.c`](Day6/3.c)
+- [`manual_2.c`](Day6/manual_2.c)
+- [`manual_3.c`](Day6/manual_3.c)
+- [`9_online_q2.c`](Day6/9_online_q2.c)
+
+### Day 7
+
+The [Day7](Day7) directory contains the following files:
+
+- [`1_manual_1.c`](Day7/1_manual_1.c)
+- [`2_manual_2.c`](Day7/2_manual_2.c)
+- [`3_manual_3.c`](Day7/3_manual_3.c)
+
+### Day 8
+
+The [Day8](Day8) directory contains the following files:
+
+- [`2_shell.sh`](Day8/2_shell.sh)
+- [`3_add.sh`](Day8/3_add.sh)
+- [`4_system_calls.c`](Day8/4_system_calls.c)
+- [`5_orphan.c`](Day8/5_orphan.c)
+- [`6_zombie.c`](Day8/6_zombie.c)
+- [`7_thread.c`](Day8/7_thread.c)
+- [`myHis.txt`](Day8/myHis.txt)
+- [`new_file1`](Day8/new_file1)
+
 ### CAs
 
 The [CAs](CAs) directory contains some problem solutions.
