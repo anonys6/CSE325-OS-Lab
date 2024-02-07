@@ -75,6 +75,8 @@ int main() {
   int n;
   printf("How many times fork should work: ");
   scanf("%d", &n);
+  #include <sys/types.h>
+
   pid_t pid;
 
   for (int i = 0; i < n; i++) {
